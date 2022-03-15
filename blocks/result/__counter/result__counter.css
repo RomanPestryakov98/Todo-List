@@ -1,0 +1,9 @@
+.result__counter {
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 580px) {
+  .result__counter {
+    margin-right: 20px;
+  }
+}

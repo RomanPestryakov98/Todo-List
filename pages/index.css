@@ -1,0 +1,44 @@
+@import url('../vendor/normalize.css');
+
+@import url('../blocks/button/button.css');
+
+@import url('../blocks/wrapper/wrapper.css');
+
+@import url('../blocks/task-input/task-input.css');
+
+@import url('../blocks/page/page.css');
+@import url('../blocks/content/content.css');
+@import url('../blocks/page/__content/page__content.css');
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__title/header__title.css');
+
+@import url('../blocks/content/content.css');
+@import url('../blocks/todoList/todoList.css');
+@import url('../blocks/todoList/__main-input/todoList__main-input.css');
+@import url('../blocks/todoList/__label/todoList__label.css');
+@import url('../blocks/todoList/__arrow/todoList__arrow.css');
+@import url('../blocks/todoList/__select-all/todoList__select-all.css');
+@import url('../blocks/todoList/__task-input/todoList__task-input.css');
+@import url('../blocks/todoList/__result/todoList__result.css');
+@import url('../blocks/todoList/__circle/todoList__circle.css');
+@import url('../blocks/todoList/__cross/todoList__cross.css');
+@import url('../blocks/todoList/__check/todoList__check.css');
+@import url('../blocks/todoList/__task-text/todoList__task-text.css');
+@import url('../blocks/todoList/__task/todoList__task.css');
+@import url('../blocks/todoList/__check/_active/todoList__check_active.css');
+@import url('../blocks/todoList/__task-text/_disabled/todoList__task-text_disabled.css');
+@import url('../blocks/todoList/__content/todoList__content.css');
+@import url('../blocks/todoList/__content/_disabled/todoList__content_disabled.css');
+@import url('../blocks/todoList/__select-all/_active/todoList__select-all_active.css');
+@import url('../blocks/todoList/__select-all/_visible/todoList__select-all_visible.css');
+
+@import url('../blocks/result/result.css');
+@import url('../blocks/result/__button/result__button.css');
+@import url('../blocks/result/__buttons/result__buttons.css');
+@import url('../blocks/result/__clear/result__clear.css');
+@import url('../blocks/result/__counter/result__counter.css');
+@import url('../blocks/result/_active/result_active.css');
+@import url('../blocks/result/__clear/_active/result__clear_active.css');
+@import url('../blocks/result/__button/_active/result__button_active.css');
+

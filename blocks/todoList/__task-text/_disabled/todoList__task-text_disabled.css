@@ -1,0 +1,4 @@
+.todoList__task-text_disabled {
+  text-decoration: line-through;
+  color: #EDEDED;
+}

@@ -1,0 +1,13 @@
+.todoList__content {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+@media screen and (max-width: 580px) {
+  .todoList__content {
+    padding: 10px 0;
+  }
+}

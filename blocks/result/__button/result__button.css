@@ -1,0 +1,25 @@
+.result__button {
+  padding: 0 5px;
+  box-sizing: border-box;
+  margin: 0 6px;
+  border: 1px solid transparent;
+
+}
+
+.result__button:last-child {
+  margin-right: 0;
+}
+.result__button:first-child {
+  margin-left: 0;
+}
+
+.result__button:hover {
+  border: 1px solid rgba(175, 47, 47, 0.1);
+}
+
+
+@media screen and (max-width: 650px) {
+  .result__button {
+    margin: 0;
+  }
+}

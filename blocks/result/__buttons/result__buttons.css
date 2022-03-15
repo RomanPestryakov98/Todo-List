@@ -1,0 +1,8 @@
+.result__buttons {
+
+}
+@media screen and (max-width: 580px) {
+  .result__buttons {
+    text-align: center;
+  }
+}

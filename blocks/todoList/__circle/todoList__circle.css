@@ -1,0 +1,28 @@
+.todoList__circle {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  flex: 0 0 30px;
+  height: 30px;
+  border: 1px solid #B4B4B4;
+  margin-left: 10px;
+  margin-right: 23px;
+}
+
+.todoList__circle img {
+  width: 15px;
+}
+
+
+@media screen and (max-width: 580px) {
+  .todoList__circle {
+    flex: 0 0 24px;
+    height: 24px;
+  }
+  .todoList__circle img {
+    width: 12px;
+  }
+}
+

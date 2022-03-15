@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo List</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+  <div class="page__content">
+    <header class="header">
+      <h1 class="header__title">Todo List</h1>
+    </header>
+    <main class="content">
+      <section class="todoList">
+        <label class="todoList__label">
+          <button type="button" class="button todoList__select-all">
+            <img src="./image/Line.svg" alt="Стрелка" class="todoList__arrow">
+          </button>
+          <input type="text" class="todoList__main-input" placeholder="What needs to be done?">
+        </label>
+        <div class="wrapper">
+          <template id="task">
+            <div class="todoList__task">
+              <div class="todoList__content">
+                <div class="todoList__circle">
+                  <img src="./image/check.svg" alt="Галочка" class="todoList__check">
+                </div>
+                <div class="todoList__task-text"></div>
+                <div class="todoList__cross">
+                  <img src="./image/cross.svg" alt="Крестик">
+                </div>
+              </div>
+            </div>
+          </template>
+        </div>
+        <div class="todoList__result result">
+          <div class="result__counter"><span id="counter"></span>items left</div>
+          <div class="result__buttons">
+            <button class="button result__button result__button_active result__button_type_all">All</button>
+            <button class="button result__button result__button_type_active">Active</button>
+            <button class="button result__button result__button_type_complited">Complited</button>
+          </div>
+          <a href="" class="result__clear">Clear completed [<span>0</span>]</a>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="script/index.js"></script>
+</body>
+
+</html>

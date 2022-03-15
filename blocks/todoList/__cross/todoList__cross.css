@@ -1,0 +1,25 @@
+.todoList__cross {
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  margin-right: 16px;
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
+  transition: opacity 0.3s ease 0s;
+}
+
+
+
+@media screen and (min-width: 741px) {
+  .todoList__cross:hover {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .todoList__cross {
+    opacity: 1;
+    display: block;
+  }
+}

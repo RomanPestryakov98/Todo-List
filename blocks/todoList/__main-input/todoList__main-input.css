@@ -1,0 +1,21 @@
+.todoList__main-input {
+  border: 0 solid #000;
+  outline: none;
+  background-color: #FEFEFE;
+  padding: 20px 30px 20px 65px;
+  width: 100%;
+  font-size: 25px;
+
+}
+
+.todoList__main-input::placeholder {
+  color: rgb(77, 77, 77, 0.2);
+}
+
+
+@media screen and (max-width: 580px) {
+  .todoList__main-input {
+    font-size: 22px;
+    padding: 20px 30px 20px 57px;
+  }
+}

@@ -1,0 +1,7 @@
+.todoList__task-input {
+  font-size: 25px;
+}
+
+.todoList__task-input:focus {
+  border: 1px solid #000;
+}

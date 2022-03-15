@@ -1,0 +1,8 @@
+.todoList__select-all {
+  margin-left: 16px;
+  margin-right: 33px;
+  opacity: 0.2;
+  transition: opacity 0.3s ease 0s;
+  position: absolute;
+  display: none;
+}

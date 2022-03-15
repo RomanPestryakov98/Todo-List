@@ -1,0 +1,21 @@
+.todoList__task {
+  background-color: #FEFEFE;
+  width: 100%;
+  font-size: 25px;
+  color: rgb(77, 77, 77);
+  box-sizing: border-box;
+  border-bottom: 1px solid #EFEFEF;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.todoList__task:hover .todoList__cross{
+  display: flex;
+}
+
+
+@media screen and (max-width: 580px) {
+  .todoList__task {
+    font-size: 21px;
+  }
+}

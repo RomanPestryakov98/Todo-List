@@ -1,0 +1,7 @@
+.result__button_active {
+  border: 1px solid rgba(175, 47, 47, 0.2);
+}
+
+.result__button_active:hover  {
+  border: 1px solid rgba(175, 47, 47, 0.2);
+}
